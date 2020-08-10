@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "IZ*ONE直播通知",
+  "version": "0.1",
+  "description": "IZ*ONE LIVE",
+  "icons": {
+    "16": "KPOP_IZONE_2020.png",
+    "48": "KPOP_IZONE_2020.png"
+  },
+  "browser_action": {
+    "default_title": "IZ*ONE LIVE",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "https://api-vfan.vlive.tv/*"
+  ]
+}
